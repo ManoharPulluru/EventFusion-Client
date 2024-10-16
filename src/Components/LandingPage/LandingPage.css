@@ -1,0 +1,19 @@
+.LandingPageMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.LandingPageLeft {
+    height: 100%;
+    width: 20%;
+    box-shadow: 0 0 10px gray;
+}
+
+.LandingPageRight {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

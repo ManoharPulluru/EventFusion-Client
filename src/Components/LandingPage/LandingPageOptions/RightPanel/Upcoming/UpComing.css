@@ -1,0 +1,30 @@
+.UpComingMain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.UpComingMain::-webkit-scrollbar {
+    display: none;
+}
+
+.searchingDivImg {
+    height: 10%;
+    aspect-ratio: 1;
+}
+
+.noSearchResults {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noSearchResults img {
+    height: 50%;
+}

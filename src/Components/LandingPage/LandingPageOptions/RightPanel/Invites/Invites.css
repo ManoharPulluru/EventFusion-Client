@@ -1,0 +1,21 @@
+.InvitesMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.InvitesMain::-webkit-scrollbar {
+    display: none;
+}
+
+.searchingDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,106 @@
+.LeftPanelMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.LeftPanelMain img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.LeftPanelBtn1 p {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.LeftPanelBtn1 {
+    height: 50px;
+    width: 90%;
+    background-color: #006bff;
+    margin-top: 25px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    scale: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.LeftPanelBtn1:hover {
+    scale: 1.01;
+}
+
+.LeftPanelBtn2 {
+    height: 50px;
+    width: 90%;
+    background-color: rgb(244, 238, 238);
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.LeftPanelBtn2:hover {
+    background-color:  rgb(224, 217, 217);;
+}
+
+.TimeZone {
+    width: 90%;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.TimeZone1 {
+    width: 90%;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TimeZone h4{ 
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.TimeZone p {
+    font-size: 28px;
+    height: 60px;
+    aspect-ratio: 1;
+    background-color: rgb(228, 201, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TimeZone1 h4{ 
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.TimeZone1 p {
+    font-size: 12px;
+    height: 60px;
+    aspect-ratio: 1;
+    background-color: rgb(201, 233, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout {
+    position: absolute;
+    bottom: 5%;
+}

@@ -1,0 +1,79 @@
+.ScheduleMain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formSchedule {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.CalanderDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.dateAndTimePicker {
+  width: 48%;
+}
+
+.formRow1 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formRow1 input {
+    height: 80%;
+    width: 48%;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.formRow2 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formRow2 textarea {
+    height: 100%;
+    width: 97.5%;
+    padding: 20px;
+}
+
+.formRow3 {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formRow0 {
+    height: 10%;
+    width: 100%;
+}
+
+.formSubmitBtn {
+    height: 60px;
+    width: 30%;
+    background-color: #006bff;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
